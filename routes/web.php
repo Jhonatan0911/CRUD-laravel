@@ -18,7 +18,7 @@ use App\Http\Controllers\ProductoController;
 */
 
 Route::get('/', function () {
-    return view('empleado.index');
+    return view('producto.index');
 });
 
 //Route::get('/empleado/create',[EmpleadoController::class,'create'] );
